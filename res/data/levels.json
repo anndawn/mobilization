@@ -1,0 +1,112 @@
+{
+ "name": "sector",
+ "children": [
+  {
+   "name": "Education",
+   "children": [
+    {
+       "name": "ER1.ECCE, primary and secondary education",
+       "children": [
+               {
+               "name": "Capacity building of statistical information system actors in the secondary education and technical and vocational training sub-sector",
+                "ID": "1.1.1.1",
+                "size": 789128
+               },
+               {
+                "name": "Use of ICTs to improve the quality of education in public primary schools",
+                "ID": "1.1.3.1",
+                "size": 1066847
+               }, 
+               {
+                   "name": "Culture and sports education in nursery and primary education",
+                       "ID": "1.1.4.1",
+                       "size": 3952450
+               }, 
+               {
+                   "name": "Early childhood care and education for strong foundation of basic education",
+                       "ID": "1.1.5.1",
+                       "size": 4125811
+               }, 
+               {
+                   "name": "Promoting access for out-of-school children",
+                       "ID": "1.1.6.1",
+                       "size": 1642299.66
+               }
+              ]
+    }, 
+    {
+        "name": "ER2.TVET",
+        "children": [{
+                "name": "Improved TVET Governance System for evidence-based TVET strategy policy coordination, formulation, implementation and monitoring",
+                    "ID": "1.2.1.1",
+                    "size": 265950
+            },
+            {
+                "name": "Synergie TVET and Literacy",
+                    "ID": "1.2.2.1",
+                    "size": 2000000
+            },
+            {
+                "name": "TVET National Strategy",
+                    "ID": "1.2.3.1",
+                    "size": 4158885.7
+            }
+        ]
+    },
+    {
+        "name": "ER3.Literacy and adult education",
+        "children": [{
+                "name": "Improving the quality of teaching/learning/evaluation in the literacy and adult education sub-sector",
+                "ID": "1.3.1.1",
+                "size": 4954263
+            },
+            {
+                "name": "Improving the quality of teaching/learning/evaluation in the literacy and adult education sub-sector – Dual Method",
+                    "ID": "1.3.2.1",
+                    "size": 2904100
+            },
+            {
+                "name": "Support for mass literacy education",
+                    "ID": "1.3.3.1",
+                    "size": 3623813.7
+            },
+            {
+                "name": "Support for an adult literacy programme in Liberia",
+                    "ID": "1.3.4.1",
+                    "size": 107000
+            }
+        ]
+    },
+    {
+        "name": "ER5.Teachers",
+        "children": [
+            {
+                "name": "Project for strengthening the technological capacities of technical education teachers",
+                    "ID": "1.4.2.1",
+                    "size": 1915305
+            },
+            {
+                "name": "Strengthening capacities of teachers training institutions",
+                        "ID": "1.4.3.1",
+                        "size": 2000000
+            },
+            {
+                "name": "Teacher competency standards",
+                    "ID": "1.4.4.1",
+                    "size": 1869128.39
+            }   
+        ]
+    },
+    {
+        "name":"ER7.Gender Equality",
+        "children": [{},{
+                "ID": "1.5.1.1",
+                "name": "Empowering girls and women through literacy and ICT",
+                "size": 789128
+            },{}
+        ]
+    }
+   ]
+  },
+  {"name":"Natural Sciences"}]
+}

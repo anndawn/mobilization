@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+let data=[
+{
+"sector": "CI",
+"er": "ER2 media contributions to gender equality and youth empowerment",
+"area": "YouthMobile Project",
+"id": "5.1.1.1",
+"country": "Nigeria",
+"value": 1590870.05
+},
+{
+"sector": "CI",
+"er": "ER2 media contributions to gender equality and youth empowerment",
+"area": "YouthMobile Project",
+"id": "5.1.1.2",
+"country": "Sierra Leone",
+"value": 530291
+},
+{
+"sector": "CI",
+"er": "ER2 media contributions to gender equality and youth empowerment",
+"area": "YouthMobile Project",
+"id": "5.1.1.3",
+"country": "Benin",
+"value": 250000
+},
+{
+"sector": "CI",
+"er": "ER2 media contributions to gender equality and youth empowerment",
+"area": "YouthMobile Project",
+"id": "5.1.1.4",
+"country": "Liberia",
+"value": 300000
+},
+{
+"sector": "CI",
+"er": "ER2 media contributions to gender equality and youth empowerment",
+"area": "Media Information & Literacy",
+"id": "5.1.2.1",
+"country": "Regional",
+"value": 400000
+},
+{
+"sector": "CI",
+"er": "ER1 enhance norms and policies related to freedom of expression",
+"area": "Community Radio",
+"id": "5.2.1.1",
+"country": "Togo",
+"value": 300000
+},
+{
+"sector": "CI",
+"er": "ER1 enhance norms and policies related to freedom of expression",
+"area": "Community Radio",
+"id": "5.2.1.2",
+"country": "Guinea",
+"value": 300000
+},
+{
+"sector": "CLT",
+"er": "ER1 protect tangible heritage",
+"area": "Protecting heritage sites",
+"id": "4.1.1.1",
+"country": "Nigeria",
+"value": 1504077
+},
+{
+"sector": "CLT",
+"er": "ER6 intangible cultural heritage",
+"area": "Safeguarding intangible cultural heritage",
+"id": "4.2.1.1",
+"country": "Nigeria",
+"value": 1454581.68
+},
+{
+"sector": "CLT",
+"er": "ER7 promote the diversity of cultural expressions",
+"area": "Cultural and creative industries",
+"id": "4.3.1.1",
+"country": "Nigeria",
+"value": 4724758.85
+},
+{
+"sector": "ED",
+"er": "ER1.ECCE, primary and secondary education",
+"area": "Capacity building of statistical information system actors in the secondary education and technical and vocational training sub-sector",
+"id": "1.1.1.1",
+"country": "Benin",
+"value": 789128
+},
+{
+"sector": "ED",
+"er": "ER1.ECCE, primary and secondary education",
+"area": "Use of ICTs to improve the quality of education in public primary schools",
+"id": "1.1.3.1",
+"country": "Benin",
+"value": 1066847
+},
+{
+"sector": "ED",
+"er": "ER1.ECCE, primary and secondary education",
+"area": "Culture and sports education in nursery and primary education",
+"id": "1.1.4.1",
+"country": "Benin",
+"value": 3952450
+},
+{
+"sector": "ED",
+"er": "ER1.ECCE, primary and secondary education",
+"area": "Early childhood care and education for strong foundation of basic education",
+"id": "1.1.5.1",
+"country": "Benin",
+"value": 4125811
+},
+{
+"sector": "ED",
+"er": "ER1.ECCE, primary and secondary education",
+"area": "Promoting access for out-of-school children",
+"id": "1.1.6.1",
+"country": "Nigeria",
+"value": 1642299.66
+},
+{
+"sector": "ED",
+"er": "ER2.TVET",
+"area": "Improved TVET Governance System for evidence-based TVET strategy policy coordination, formulation, implementation and monitoring",
+"id": "1.2.1.1",
+"country": "Liberia",
+"value": 265950
+},
+{
+"sector": "ED",
+"er": "ER2.TVET",
+"area": "Synergie TVET and Literacy",
+"id": "1.2.2.1",
+"country": "Benin",
+"value": 2000000
+},
+{
+"sector": "ED",
+"er": "ER2.TVET",
+"area": "TVET National Strategy",
+"id": "1.2.3.1",
+"country": "Nigeria",
+"value": 4158885.7
+},
+{
+"sector": "ED",
+"er": "ER3.Literacy and adult education",
+"area": "Improving the quality of teaching/learning/evaluation in the literacy and adult education sub-sector",
+"id": "1.3.1.1",
+"country": "Benin",
+"value": 4954263
+},
+{
+"sector": "ED",
+"er": "ER3.Literacy and adult education",
+"area": "Improving the quality of teaching/learning/evaluation in the literacy and adult education sub-sector – Dual Method",
+"id": "1.3.2.1",
+"country": "Togo",
+"value": 2904100
+},
+{
+"sector": "ED",
+"er": "ER3.Literacy and adult education",
+"area": "Support for mass literacy education",
+"id": "1.3.3.1",
+"country": "Nigeria",
+"value": 3623813.7
+},
+{
+"sector": "ED",
+"er": "ER3.Literacy and adult education",
+"area": "Support for an adult literacy programme in Liberia",
+"id": "1.3.4.1",
+"country": "Liberia",
+"value": 107000
+},
+{
+"sector": "ED",
+"er": "ER5.Teachers",
+"area": "Project for strengthening the technological capacities of technical education teachers",
+"id": "1.4.1.1",
+"country": "Benin",
+"value": 1915305
+},
+{
+"sector": "ED",
+"er": "ER5.Teachers",
+"area": "Strengthening capacities of teachers training institutions",
+"id": "1.4.2.1",
+"country": "Benin",
+"value": 1000000
+},
+{
+"sector": "ED",
+"er": "ER5.Teachers",
+"area": "Strengthening capacities of teachers training institutions",
+"id": "1.4.2.1",
+"country": "Togo",
+"value": 1000000
+},
+{
+"sector": "ED",
+"er": "ER5.Teachers",
+"area": "Teacher competency standards",
+"id": "1.4.3.1",
+"country": "Nigeria",
+"value": 1869128.39
+},
+{
+"sector": "ED",
+"er": "ER7.Gender Equality",
+"area": "Empowering girls and women through literacy and ICT",
+"id": "1.5.1.1",
+"country": "Guinea",
+"value": 789128
+},
+{
+"sector": "SC",
+"er": "ER1 strengthen capacity to develop and monitor inclusive STI policy and knowledge systems",
+"area": "STI",
+"id": "2.1.1.1",
+"country": "Nigeria",
+"value": 2658083
+},
+{
+"sector": "SC",
+"er": "ER2 increase institutional and human capacity to produce, disseminate and apply STI",
+"area": "STEM",
+"id": "2.2.1.1",
+"country": "Liberia",
+"value": 2500000
+},
+{
+"sector": "SC",
+"er": "ER2 increase institutional and human capacity to produce, disseminate and apply STI",
+"area": "STEM",
+"id": "2.2.2.2",
+"country": "Benin",
+"value": 1000000
+},
+{
+"sector": "SC",
+"er": "ER2 increase institutional and human capacity to produce, disseminate and apply STI",
+"area": "STEM",
+"id": "2.2.3.3",
+"country": "Nigeria",
+"value": 1000000
+},
+{
+"sector": "SC",
+"er": "ER5 strengthened management of natural resources",
+"area": "Green Economy and Biosphere Reserves",
+"id": "2.3.1.1",
+"country": "Togo",
+"value": 1002069
+},
+{
+"sector": "SC",
+"er": "ER5 strengthened management of natural resources",
+"area": "Green Economy and Biosphere Reserves",
+"id": "2.3.1.2",
+"country": "Nigeria",
+"value": 1000199
+},
+{
+"sector": "SC",
+"er": "ER5 strengthened management of natural resources",
+"area": "Green Economy and Biosphere Reserves",
+"id": "2.3.1.3",
+"country": "Nigeria",
+"value": 1805153
+},
+{
+"sector": "SC",
+"er": "ER7 strengthen response to water security challenges towards the achievement of water-related SDGs",
+"area": "Water Quality",
+"id": "2.4.1.1",
+"country": "Nigeria",
+"value": 1851143
+},
+{
+"sector": "SHS",
+"er": "ER2 capacity building for inclusive, equitable development",
+"area": "Governance of Diversity for mutual understanding and peaceful coexistence",
+"id": "3.1.1.1",
+"country": "Regional",
+"value": 1000000
+},
+{
+"sector": "SHS",
+"er": "ER4 peace building",
+"area": "Prevention of violent extremism",
+"id": "3.2.1.1",
+"country": "Nigeria",
+"value": 3033295.1
+},
+{
+"sector": "SHS",
+"er": "ER3 Youth-led action",
+"area": "Promouvior les valeurs du Sport dans l’Éducation, la Santé et la Gouvernance",
+"id": "3.3.1.1",
+"country": "Regional",
+"value": 3000000
+},
+{
+"sector": "SHS",
+"er": "ER3 Youth-led action",
+"area": "Youth Civic Engagement and for Active Citizenship and Participation of Youth in Decision Making",
+"id": "3.3.2.1",
+"country": "Regional",
+"value": 1500000
+}
+]
+var nedata=d3.nest().key((d)=>d.sector).key((d)=>d.er)
+             .entries(data)
+console.log(nedata);
+
+</script>

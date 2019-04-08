@@ -1,0 +1,312 @@
+{
+    "name": "sector",
+    "children": [
+        {
+        "name": "Communication and Information",
+        "children": [{
+                "name": "ER2 media contributions to gender equality and youth empowerment",
+                "children": [
+                    {
+                        "sector": "Communication and Information",
+                        "er": "ER2 media contributions to gender equality and youth empowerment",
+                        "name": "YouthMobile Project",
+                        "ID": "5.1.1.1",
+                        "size": 2671161
+                    },
+                    {
+                        "sector": "Communication and Information",
+                        "er": "ER2 media contributions to gender equality and youth empowerment",
+                        "name": "Media Information & Literacy",
+                        "ID": "5.1.2.1",
+                        "country": "Regional",
+                        "size": 400000
+                    }
+                ]
+            },
+            {
+                "name": "ER1 enhance norms and policies related to freedom of expression",
+                "children": [{
+                        "sector": "Communication and Information",
+                        "er": "ER1 enhance norms and policies related to freedom of expression",
+                        "name": "Community Radio",
+                        "ID": "5.2.1.1",
+                        "size": 600000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Culture",
+        "children": [{
+                "name": "ER1 protect tangible heritage",
+                "children": [{
+                    "sector": "Culture",
+                    "er": "ER1 protect tangible heritage",
+                    "name": "Protecting heritage sites",
+                    "ID": "4.1.1.1",
+                    "country": "Nigeria",
+                    "size": 1504077
+                }]
+            },
+            {
+                "name": "ER6 intangible cultural heritage",
+                "children": [{
+                    "sector": "Culture",
+                    "er": "ER6 intangible cultural heritage",
+                    "name": "Safeguarding intangible cultural heritage",
+                    "ID": "4.2.1.1",
+                    "country": "Nigeria",
+                    "size": 1454581.68
+                }]
+            },
+            {
+                "name": "ER7 promote the diversity of cultural expressions",
+                "children": [{
+                    "sector": "Culture",
+                    "er": "ER7 promote the diversity of cultural expressions",
+                    "name": "Cultural and creative industries",
+                    "ID": "4.3.1.1",
+                    "country": "Nigeria",
+                    "size": 4724758.85
+                }]
+            }
+        ]
+    },
+    {
+        "name": "Education",
+        "children": [{
+                "name": "ER1.ECCE, primary and secondary education",
+                "children": [{
+                        "sector": "Education",
+                        "er": "ER1.ECCE, primary and secondary education",
+                        "name": "Capacity building of statistical information system actors in the secondary education and technical and vocational training sub-sector",
+                        "ID": "1.1.1.1",
+                        "country": "Benin",
+                        "size": 789128
+                    },
+                    {
+                        "sector": "Education",
+                        "er": "ER1.ECCE, primary and secondary education",
+                        "name": "Use of ICTs to improve the quality of education in public primary schools",
+                        "ID": "1.1.3.1",
+                        "country": "Benin",
+                        "size": 1066847
+                    },
+                    {
+                        "sector": "Education",
+                        "er": "ER1.ECCE, primary and secondary education",
+                        "name": "Culture and sports education in nursery and primary education",
+                        "ID": "1.1.4.1",
+                        "country": "Benin",
+                        "size": 3952450
+                    },
+                    {
+                        "sector": "Education",
+                        "er": "ER1.ECCE, primary and secondary education",
+                        "name": "Early childhood care and education for strong foundation of basic education",
+                        "ID": "1.1.5.1",
+                        "country": "Benin",
+                        "size": 4125811
+                    },
+                    {
+                        "sector": "Education",
+                        "er": "ER1.ECCE, primary and secondary education",
+                        "name": "Promoting access for out-of-school children",
+                        "ID": "1.1.6.1",
+                        "country": "Nigeria",
+                        "size": 1642299.66
+                    }
+                ]
+            },
+            {
+                "name": "ER2.TVET",
+                "children": [{
+                        "sector": "Education",
+                        "er": "ER2.TVET",
+                        "name": "Improved TVET Governance System for evIDence-based TVET strategy policy coordination, formulation, implementation and monitoring",
+                        "ID": "1.2.1.1",
+                        "country": "Liberia",
+                        "size": 265950
+                    },
+                    {
+                        "sector": "Education",
+                        "er": "ER2.TVET",
+                        "name": "Synergie TVET and Literacy",
+                        "ID": "1.2.2.1",
+                        "country": "Benin",
+                        "size": 2000000
+                    },
+                    {
+                        "sector": "Education",
+                        "er": "ER2.TVET",
+                        "name": "TVET National Strategy",
+                        "ID": "1.2.3.1",
+                        "country": "Nigeria",
+                        "size": 4158885.7
+                    }
+                ]
+            },
+            {
+                "name": "ER3.Literacy and adult education",
+                "children": [{
+                        "sector": "Education",
+                        "er": "ER3.Literacy and adult education",
+                        "name": "Improving the quality of teaching/learning/evaluation in the literacy and adult education sub-sector",
+                        "ID": "1.3.1.1",
+                        "country": "Benin",
+                        "size": 7858363
+                    },
+                    {
+                        "sector": "Education",
+                        "er": "ER3.Literacy and adult education",
+                        "name": "Support for mass literacy education",
+                        "ID": "1.3.3.1",
+                        "country": "Nigeria",
+                        "size": 3623813.7
+                    },
+                    {
+                        "sector": "Education",
+                        "er": "ER3.Literacy and adult education",
+                        "name": "Support for an adult literacy programme in Liberia",
+                        "ID": "1.3.4.1",
+                        "country": "Liberia",
+                        "size": 107000
+                    }
+                ]
+            },
+            {
+                "name": "ER5.Teachers",
+                "children": [{
+                        "sector": "Education",
+                        "er": "ER5.Teachers",
+                        "name": "Project for strengthening the technological capacities of technical education teachers",
+                        "ID": "1.4.1.1",
+                        "country": "Benin",
+                        "size": 1915305
+                    },
+                    {
+                        "sector": "Education",
+                        "er": "ER5.Teachers",
+                        "name": "Strengthening capacities of teachers training institutions",
+                        "ID": "1.4.2.1",
+                        "size": 2000000
+                    },
+                    {
+                        "sector": "Education",
+                        "er": "ER5.Teachers",
+                        "name": "Teacher competency standards",
+                        "ID": "1.4.3.1",
+                        "country": "Nigeria",
+                        "size": 1869128.39
+                    }
+                ]
+            },
+            {
+                "name": "ER7.Gender Equality",
+                "children": [{
+                    "sector": "Education",
+                    "er": "ER7.Gender Equality",
+                    "name": "Empowering girls and women through literacy and ICT",
+                    "ID": "1.5.1.1",
+                    "country": "Guinea",
+                    "size": 789128
+                }]
+            }
+        ]
+    },
+    {
+        "name": "Natural Sciences",
+        "children": [{
+                "name": "ER1 develop inclusive STI policy and knowledge systems",
+                "children": [{
+                    "sector": "Natural Sciences",
+                    "er": "ER1 develop inclusive STI policy and knowledge systems",
+                    "name": "STI",
+                    "ID": "2.1.1.1",
+                    "country": "Nigeria",
+                    "size": 2658083
+                }]
+            },
+            {
+                "name": "ER2 produce, disseminate and apply STI",
+                "children": [{
+                        "sector": "Natural Sciences",
+                        "er": "ER2 produce, disseminate and apply STI",
+                        "name": "STEM",
+                        "ID": "2.2.1.1",
+                        "size": 3500000
+                    }
+                ]
+            },
+            {
+                "name": "ER5 strengthened management of natural resources",
+                "children": [{
+                        "sector": "Natural Sciences",
+                        "er": "ER5 strengthened management of natural resources",
+                        "name": "Green Economy and Biosphere Reserves",
+                        "ID": "2.3.1.1",
+                        "size": 3807421
+                    }
+                ]
+            },
+            {
+                "name": "ER7 strengthen response to water security challenges",
+                "children": [{
+                    "sector": "Natural Sciences",
+                    "er": "ER7 strengthen response to water security challenges",
+                    "name": "Water Quality",
+                    "ID": "2.4.1.1",
+                    "country": "Nigeria",
+                    "size": 1851143
+                }]
+            }
+        ]
+    },
+    {
+        "name": "Social and Human Sciences",
+        "children": [{
+                "name": "ER2 capacity building for inclusive, equitable development",
+                "children": [{
+                    "sector": "Social and Human Sciences",
+                    "er": "ER2 capacity building for inclusive, equitable development",
+                    "name": "Governance of Diversity for mutual understanding and peaceful coexistence",
+                    "ID": "3.1.1.1",
+                    "country": "Regional",
+                    "size": 1000000
+                }]
+            },
+            {
+                "name": "ER4 peace building",
+                "children": [{
+                    "sector": "Social and Human Sciences",
+                    "er": "ER4 peace building",
+                    "name": "Prevention of violent extremism",
+                    "ID": "3.2.1.1",
+                    "country": "Nigeria",
+                    "size": 3033295.1
+                }]
+            },
+            {
+                "name": "ER3 Youth-led action",
+                "children": [{
+                        "sector": "Social and Human Sciences",
+                        "er": "ER3 Youth-led action",
+                        "name": "Promouvior les valeurs du Sport dans l’Éducation, la Santé et la Gouvernance",
+                        "ID": "3.3.1.1",
+                        "country": "Regional",
+                        "size": 3000000
+                    },
+                    {
+                        "sector": "Social and Human Sciences",
+                        "er": "ER3 Youth-led action",
+                        "name": "Youth Civic Engagement and for Active Citizenship and Participation of Youth in Decision Making",
+                        "ID": "3.3.2.1",
+                        "country": "Regional",
+                        "size": 1500000
+                    }
+                ]
+            }
+        ]
+    }
+]}
